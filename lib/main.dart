@@ -555,3 +555,16 @@ class _MobileViewState extends State<MobileView> {
     );
   }
 }
+
+class Component extends StatelessWidget {
+  const Component({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 20,
+      width: 20,
+      color: Colors.green,
+    );
+  }
+}
